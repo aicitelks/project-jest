@@ -26,7 +26,7 @@ describe('verifica o usuário', () => {
 
   api.fetchURL = jest
     .fn()
-    .mockImplementation(async () => 
+    .mockImplementation(async () =>
       ({
         gender: 'male',
         name: {
@@ -41,7 +41,7 @@ describe('verifica o usuário', () => {
           username: 'tunicao123',
           password: '1234567890',
         },
-      })
+      }),
     );
 
   test('verifica se o usuário é o tunico', async () => (
