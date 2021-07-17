@@ -19,6 +19,7 @@ Dica: Utilizem os métodos jest.fn() ou jest.spyOn().
 
 ATENÇÃO!!! Edite apenas este arquivo. Não altere os arquivos da pasta 'src'.
 */
+
 const api = require('../src/mockApi');
 
 describe('verifica o usuário', () => {
