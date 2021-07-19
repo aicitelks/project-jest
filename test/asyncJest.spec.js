@@ -25,7 +25,7 @@ describe('o retorno do telefonema', () => {
 
     answerPhone(false)
       .catch((errorMessage) => {
-        expect(errorMessage).toBe(new Error('Infelizmente não podemos atender...'));
+        expect(errorMessage).toStrictEqual(new Error('Infelizmente não podemos atender...'));
       });
   });
 });
