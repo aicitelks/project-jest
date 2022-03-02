@@ -18,8 +18,10 @@ Implementação de testes utilizando o **Jest** para verificar se uma série de 
 
 1. Clone o repositório
   * `git clone git@github.com:aicitelks/project-jest.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd project-jest`
+2. Entre na pasta do repositório que você acabou de clonar:
+  * `cd project-jest`
+3. Instale as dependências
+  * `npm install`
 
 ---
 
